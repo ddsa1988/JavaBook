@@ -5,5 +5,13 @@ public class Main {
         System.out.println(amora.getBreed());
         System.out.println(amora.getSize());
         amora.bark();
+
+        System.out.println("\n");
+
+        Dog cereja = new Dog("Cereja", "Puddle",5);
+        System.out.println(cereja.getName());
+        System.out.println(cereja.getBreed());
+        System.out.println(cereja.getSize());
+        amora.bark();
     }
 }
